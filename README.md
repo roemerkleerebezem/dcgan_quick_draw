@@ -330,7 +330,7 @@ train(train_dataset, EPOCHS)
 ```
 
 
-![png](output_30_0.png)
+![png](ressources/output_30_0.png)
 
 
     CPU times: user 15min 24s, sys: 3min 52s, total: 19min 17s
@@ -369,7 +369,7 @@ generate_images(generator, tf.random.normal([64, 100]))
 ```
 
 
-![png](output_34_0.png)
+![png](ressources/output_34_0.png)
 
 
 Sample of 64 original drawings
@@ -387,7 +387,7 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+![png](ressources/output_36_0.png)
 
 
 ## Conclusion
