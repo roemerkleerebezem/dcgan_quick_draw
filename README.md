@@ -16,7 +16,8 @@ This is a collection of more than 50 million grayscale doodles, made by users wo
 Users are given a category at random (out of 345 types of objects), and they have up to 20 seconds to draw it, or until the Google algorithm guesses the category.
 
 ![Drawings sample](ressources/sample_quick_draw.PNG)
-*A selection of bears*
+
+*A selection of rabbit drawings*
 
 As we can see, some drawings are cut short due to the algorithm guessing the category before the user had finished. This will cause problems when generating some types of images (rabbits missing eyes, notably).
 
