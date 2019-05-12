@@ -182,7 +182,7 @@ def make_discriminator_model():
 discriminator = make_discriminator_model()
 decision = discriminator(generated_image)
 
-# Evaluates our noise. Returns negative values for "bad" drawings, and positive valyes for "good" ones
+# Evaluates our noise. Returns negative values for "bad" drawings, and positive values for "good" ones
 print(decision)
 ```
 
@@ -397,7 +397,7 @@ plt.show()
 ---
 
 
-We can see that after 100 epochs (50 minutes of training on a GPU accelerated Google Colab notebook), the results are starting to be recognisable as being rabbits. However, we still havent reached the quality of the original drawings.
+We can see that after 100 epochs (50 minutes of training on a GPU accelerated Google Colab notebook), the results are starting to be recognisable as being rabbits. However, we still haven't reached the quality of the original drawings.
 
 A few possible reasons : 
 - Original drawings are very diverse : sometimes the image will contain a full rabbit, sometimes just the head. The generator model seems to consistently draw their common part, the rabbit ears. However, it will also be confused as to whether it should be drawing a head (round shape) or a body (elongated shape)
